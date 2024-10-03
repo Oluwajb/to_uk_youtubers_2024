@@ -1,22 +1,21 @@
 # Data Portfolio: Excel to Power BI
 
 ## Table of Contents
-- [Objectives](#objectives)
+- [Objective](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-  - [Dashboard components requirement](#Dashboard-components-requirement)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
-  - [Data Exploration](#Data-Exploration)
-  - [Data Cleaning](#Data-Cleaning)
-  - [Transform the Data](#Transform-the-Data)
-  - [Create the SQL View](#Create-the-SQL-View)
+  - [Data Exploration](#data-exploration)
+  - [Data Cleaning](#data-cleaning)
+  - [Transform the Data](#transform-the-data)
+  - [Create the SQL View](#create-the-sql-view)
 - [Data Quality Test](#testing)
 - [Visualization](#visualization)
-- [Analysis](#Analysis)
-- [Validation](#Validation)  
+- [Analysis](#analysis)
+- [Validation](#validation)  
 
 ## Objectives
 The Head of Marketing wants to find out who the top YouTubers are in 2024 to determine which YouTubers are most suitable for marketing campaigns for the remainder of the year.
@@ -134,6 +133,7 @@ SELECT
    FROM [Yt_database].[dbo].[Top_UK_YTubers];
 
 ```
+
 
 ## Data Quality Test
 Here are the data quality tests conducted:
@@ -262,6 +262,7 @@ Best option from category: Dan Rhodes
 
 ![SQL Query](asset/Images/KPI_1.png)
 
+
 ### 2. Youtubers with the most videos uploaded
 
 ### Calculation breakdown 
@@ -296,6 +297,46 @@ b. **Yogscast**
 
 
 Best option from category: Yogscast
+
+### SQL Query
+
+![SQL Query](asset/Images/KP1.png)
+
+
+### 3.  Youtubers with the most views 
+
+#### Calculation breakdown
+
+Campaign idea = Influencer marketing 
+
+a. DanTDM
+
+- Average views per video = 5.34 million
+- Product cost = $5
+- Potential units sold per video = 5.34 million x 2% conversion rate = 106,800 units sold
+- Potential revenue per video = 106,800 x $5 = $534,000
+- Campaign cost (3-month contract) = $130,000
+- **Net profit = $534,000 - $130,000 = $404,000**
+
+b. Dan Rhodes
+
+- Average views per video = 11.15 million
+- Product cost = $5
+- Potential units sold per video = 11.15 million x 2% conversion rate = 223,000 units sold
+- Potential revenue per video = 223,000 x $5 = $1,115,000
+- Campaign cost (3-month contract) = $130,000
+- **Net profit = $1,115,000 - $130,000 = $985,000**
+
+c. Mister Max
+
+- Average views per video = 14.06 million
+- Product cost = $5
+- Potential units sold per video = 14.06 million x 2% conversion rate = 281,200 units sold
+- Potential revenue per video = 281,200 x $5 = $1,406,000
+- Campaign cost (3-month contract) = $130,000
+- **Net profit = $1,406,000 - $130,000 = $1,276,000**
+
+Best option from category: Mister Max
   
 
 
