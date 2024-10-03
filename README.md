@@ -102,3 +102,68 @@ And here is a tabular representation of the expected schema for the clean data:
 | total_views	| INTEGER	| NO |
 | total_videos |	INTEGER |	NO |
 
+- What steps are needed to clean and shape the data into the desired format?
+1. Remove unnecessary columns by only selecting the ones you need
+2. Extract Youtube channel names from the first column
+3. Rename columns using aliases
+
+# Data Portfolio: Excel to Power BI
+
+## Table of Contents
+- [Objectives](#objectives)
+- [Data Source](#data-source)
+- [Stages](#stages)
+- [Design](#design)
+- [Data Transformation](#data-transformation)
+
+## Objectives
+The Head of Marketing wants to find out who the top YouTubers are in 2024 to determine which YouTubers are most suitable for marketing campaigns for the remainder of the year.
+
+### Ideal Solution
+To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes the following:
+- Subscriber count
+- Total views
+- Total videos
+- Engagement metrics
+
+This will help the marketing team make informed decisions regarding which YouTubers to collaborate with for their marketing campaigns.
+
+## Data Source
+### What data is needed to achieve our objective?
+We need data on the top UK YouTubers in 2024 that includes:
+- Channel names
+- Total subscribers
+- Total views
+- Total videos uploaded
+
+### Where is the data coming from?
+The data is sourced from Kaggle (an Excel extract), which can be found [here](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download).
+
+## Stages
+- Design
+- Development
+- Testing
+- Analysis
+
+## Design
+### Dashboard components required
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+## Data Transformation
+The following SQL query is used to transform the data to extract YouTuber names (before the '@' character) along with their total subscribers, views, and videos uploaded:
+
+```sql
+SELECT 
+    cast(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) - 1) as varchar(100)) AS YtName,
+    [total_subscribers],
+    [total_views],
+    [total_videos]
+FROM [Yt_database].[dbo].[Top_UK_YTubers];
+
+
