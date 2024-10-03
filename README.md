@@ -90,6 +90,15 @@ Below is a table outlining the constraints on our cleaned dataset:
 
 | Property | Description |
  --- | ---
- | Number of Rows | 100 | 
- | Number of Columns | 4 |
+| Number of Rows | 100 | 
+| Number of Columns | 4 |
+
+And here is a tabular representation of the expected schema for the clean data:
+
+| Column Name	| Data Type	| Nullable |
+---|---|---
+| channel_name | VARCHAR | NO |
+| total_subscribers	| INTEGER	| NO |
+| total_views	| INTEGER	| NO |
+| total_videos |	INTEGER |	NO |
 
