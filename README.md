@@ -47,6 +47,7 @@ To understand what it should contain, we need to figure out what questions we ne
 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 ## Tools
+
 | Tool | Purpose
  --- | ---
 | Excel | Exploring Data |
