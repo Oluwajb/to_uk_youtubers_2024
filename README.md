@@ -5,14 +5,14 @@
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-  - [Dashboard components requirement](#Dashboard_components_requirement)
+  - [Dashboard components requirement](#Dashboard-components-requirement)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
-  - [Data Exploration](#Data_Exploration)
-  - [Data Cleaning](#Data_Cleaning)
-  - [Transform the Data](#Transform_the_Data)
-  - [Create the SQL View](#Create_the_SQL_View)
+  - [Data Exploration](#Data-Exploration)
+  - [Data Cleaning](#Data-Cleaning)
+  - [Transform the Data](#Transform-the-Data)
+  - [Create the SQL View](#Create-the-SQL-View)
 - [Data Quality Test](#testing)
 - [Visualization](#visualization)
 - [Analysis](#Analysis)
@@ -261,6 +261,41 @@ Best option from category: Dan Rhodes
 ### SQL Query
 
 ![SQL Query](asset/Images/KPI_1.png)
+
+### 2. Youtubers with the most videos uploaded
+
+### Calculation breakdown 
+
+Campaign idea = sponsored video series  
+
+a. GRM Daily
+- Average views per video = 510,000
+- Product cost = $5
+- Potential units sold per video = 510,000 x 2% conversion rate = 10,200 units sold
+- Potential revenue per video = 10,200 x $5= $51,000
+- Campaign cost (11-videos @ $5,000 each) = $55,000
+- **Net profit = $51,000 - $55,000 = -$4,000 (potential loss)**
+
+b. **Manchester City**
+
+- Average views per video = 240,000
+- Product cost = $5
+- Potential units sold per video = 240,000 x 2% conversion rate = 4,800 units sold
+- Potential revenue per video = 4,800 x $5= $24,000
+- Campaign cost (11-videos @ $5,000 each) = $55,000
+- **Net profit = $24,000 - $55,000 = -$31,000 (potential loss)**
+
+b. **Yogscast**
+
+- Average views per video = 710,000
+- Product cost = $5
+- Potential units sold per video = 710,000 x 2% conversion rate = 14,200 units sold
+- Potential revenue per video = 14,200 x $5= $71,000
+- Campaign cost (11-videos @ $5,000 each) = $55,000
+- **Net profit = $71,000 - $55,000 = $16,000 (profit)**
+
+
+Best option from category: Yogscast
   
 
 
