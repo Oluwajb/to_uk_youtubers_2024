@@ -5,6 +5,7 @@
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
+- [Tools](#tools)
 
 ## Objectives
 The Head of Marketing wants to find out who the top YouTubers are in 2024 to determine which YouTubers are most suitable for marketing campaigns for the remainder of the year.
@@ -43,4 +44,10 @@ To understand what it should contain, we need to figure out what questions we ne
 3. Which 3 channels have the most views?
 4. Which 3 channels have the highest average views per video?
 5. Which 3 channels have the highest views per subscriber ratio?
-6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+## Tools
+| Tool | Purpose
+ ---- | ----
+| Excel | Exploring Data
+ ---- | ----
+7. Which 3 channels have the highest subscriber engagement rate per video uploaded?
