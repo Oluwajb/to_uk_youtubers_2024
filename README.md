@@ -14,6 +14,7 @@
   - [Transform the Data](#TransformtheData)
   - [Create the SQL View](#CreatetheSQLView)
 - [Data Quality Test](#testing)
+- [Visualization](#visualization)
   
 
 ## Objectives
@@ -142,6 +143,11 @@ Here are the data quality tests conducted:
 ### Data Types and Duplicate Check
 
 ![Data Type and Duplicates](asset/Images/Data_Type.png)
+
+
+##  Visualization
+### Results
+
 
 
 
