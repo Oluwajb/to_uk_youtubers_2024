@@ -111,14 +111,8 @@ And here is a tabular representation of the expected schema for the clean data:
 The following SQL query is used to transform the data to extract YouTuber names (before the '@' character) along with their total subscribers, views, and videos uploaded:
 
 ```sql
-/*
-# 1. Select the required columns
-# 2. Extract the channel name from the 'NOMBRE' column
-*/
-
--- 1.
 SELECT
-    SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) -1) AS channel_name,  -- 2.
+    SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) -1) AS channel_name,  
     total_subscribers,
     total_views,
     total_videos
