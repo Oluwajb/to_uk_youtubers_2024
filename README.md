@@ -185,13 +185,37 @@ Here are the data quality tests conducted:
 | 2 | Manchester City | 8,248|
 | 3 | Yogscast	 | 6,435 |
 
-### Which 3 channels have the most views?
+### 3. Which 3 channels have the most views?
 
 | Rank	| Channel Name	|Views (M) |
 --- | --- | --- 
 | 1 | DanTDM | 19,776 |
 | 2 | Dan Rhodes | 18,559|
 | 3 | Mister Max| 15,974 |
+
+### 4. Which 3 channels have the highest average views per video?
+
+| Rank | Channel Name | Averge Views per Video (M) |
+--- | --- | --- 
+| 1 | Mark Ronson | 32.27 |
+| 2 | Jessie J | 5.97 |
+| 3 | Dua Lipa	| 5.76 |
+
+### 5. Which 3 channels have the highest views per subscriber ratio?
+
+| Rank | Channel Name | Views per Subscriber (M) |
+--- | --- | --- 
+| 1 | GRM Daily | 1,186 |
+| 2 | Nicolodeon UK | 1,061 |
+| 3 | Disney Junior UK	| 1,032 |
+
+### 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+| Rank | Channel Name    | Subscriber Engagement Rate  |
+|------|-----------------|---------------------------- |
+| 1    | Mark Ronson     | 343,000                     |
+| 2    | Jessie J        | 110,416.67                  |
+| 3    | Dua Lipa        | 104,954.95                  |
 
 
 
