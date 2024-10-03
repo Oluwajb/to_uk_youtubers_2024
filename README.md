@@ -116,7 +116,7 @@ SELECT
 	,[total_subscribers]
     ,[total_views]
      ,[total_videos]
-   FROM Top_UK_YTubers
+   FROM Top_UK_YTubers;
 
 ```
 
