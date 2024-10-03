@@ -8,7 +8,7 @@
   - [Dashboard components requirement](#Dashboard components requirement)
   - [Tools](#tools)
 - [Development](#development)
-  - [Pseudocode](#Pseudocode)
+  - [Pseudocode](#pseudocode)
   - [Data Exploration](#DataExploration)
   - [Data Cleaning](#DataCleaning)
   - [Transform the Data](#TransformtheData)
@@ -75,4 +75,21 @@ To understand what it should contain, we need to figure out what questions we ne
 7. Write the documentation + commentary
 8. Publish the data to GitHub Pages
 
+### Data Exploration Notes
+1. There are at least 4 columns that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
+2. The first column contains the channel ID with what appears to be channel IDS, which are separated by a @ symbol - we need to extract the channel names from this.
+3. Some of the cells and header names are in a different language - we need to confirm if these columns are needed, and if so, we need to address them.
+4. We have more data than we need, so some of these columns would need to be remove
+
+### Data Cleaning
+The cleaned data should meet the following criteria and constraints:
+  - Only relevant columns should be retained.
+  - All data types should be appropriate for the contents of each column.
+  - No column should contain null values, indicating complete data for all records.
+Below is a table outlining the constraints on our cleaned dataset:
+
+| Property | Description |
+ --- | ---
+ | Number of Rows | 100 | 
+ | Number of Columns | 4 |
 
