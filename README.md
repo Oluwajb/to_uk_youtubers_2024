@@ -139,6 +139,9 @@ Here are the data quality tests conducted:
 ### Row and Column Check
 ![Row and Column Count](asset/Images/Row_and_Column.png)
 
+### Data Types and Duplicate Check
+
+![Data Type and Duplicates](asset/Images/Data_Type.png)
 
 
 
