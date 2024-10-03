@@ -150,6 +150,7 @@ Here are the data quality tests conducted:
 - What does the visualization look like?
 
     ![Visual](asset/Images/viz.gif)
+  
 
 ## Analysis
 - What did we find out?
@@ -162,6 +163,7 @@ Here are the data quality tests conducted:
 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 ### 1. Who are the top 10 YouTubers with the most subscribers?
+
 | Rank	| Channel Name	| Subscribers (M) |
 --- | --- | --- 
 | 1 | NoCopyrightSounds | 33.60 |
@@ -175,7 +177,21 @@ Here are the data quality tests conducted:
 | 9 | Sidemen | 21.00 |
 | 10 | Ali-A | 18.90 |
 
+### 2. Which 3 channels have uploaded the most videos (excluding news channels)?
 
+| Rank	| Channel Name	| Vidoes |
+--- | --- | --- 
+| 1 | GRM Daily	| 14,696 |
+| 2 | Manchester City | 8,248|
+| 3 | Yogscast	 | 6,435 |
+
+### Which 3 channels have the most views?
+
+| Rank	| Channel Name	|Views (M) |
+--- | --- | --- 
+| 1 | DanTDM | 19,776 |
+| 2 | Dan Rhodes | 18,559|
+| 3 | Mister Max| 15,974 |
 
 
 
