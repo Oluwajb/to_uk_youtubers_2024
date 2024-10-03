@@ -147,6 +147,8 @@ Here are the data quality tests conducted:
 
 ##  Visualization
 ### Results
+- What does the visualization look like?
+  ![Visual](asset/Images/Visualization.mp4)
 
 
 
