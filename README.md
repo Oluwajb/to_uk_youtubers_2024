@@ -5,14 +5,14 @@
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-  - [Dashboard components requirement](#Dashboard components requirement)
+  - [Dashboard components requirement](#Dashboard_components_requirement)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
-  - [Data Exploration](#DataExploration)
-  - [Data Cleaning](#DataCleaning)
-  - [Transform the Data](#TransformtheData)
-  - [Create the SQL View](#CreatetheSQLView)
+  - [Data Exploration](#Data_Exploration)
+  - [Data Cleaning](#Data_Cleaning)
+  - [Transform the Data](#Transform_the_Data)
+  - [Create the SQL View](#Create_the_SQL_View)
 - [Data Quality Test](#testing)
 - [Visualization](#visualization)
 - [Analysis](#Analysis)
@@ -257,6 +257,10 @@ c. Dan Rhodes
 
 
 Best option from category: Dan Rhodes
+
+### SQL Query
+
+![SQL Query](asset/Images/KPI_1.png)
   
 
 
