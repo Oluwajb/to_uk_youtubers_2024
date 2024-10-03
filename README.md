@@ -137,7 +137,7 @@ SELECT
 Here are the data quality tests conducted:
 
 ### Row and Column Check
-![Row and Column Count](asset/Images/Row_and_Column_Count.png)
+![Row and Column Count](asset/Images/Row_and_Column.png)
 
 
 
