@@ -13,6 +13,8 @@
   - [Data Cleaning](#DataCleaning)
   - [Transform the Data](#TransformtheData)
   - [Create the SQL View](#CreatetheSQLView)
+- [Data Quality Test](#testing)
+  
 
 ## Objectives
 The Head of Marketing wants to find out who the top YouTubers are in 2024 to determine which YouTubers are most suitable for marketing campaigns for the remainder of the year.
@@ -107,7 +109,7 @@ And here is a tabular representation of the expected schema for the clean data:
 2. Extract Youtube channel names from the first column
 3. Rename columns using aliases
 
-## Data Transformation
+## Transform the Data
 The following SQL query is used to transform the data to extract YouTuber names (before the '@' character) along with their total subscribers, views, and videos uploaded:
 
 ```sql 
@@ -119,6 +121,22 @@ SELECT
    FROM Top_UK_YTubers;
 
 ```
+## Create the SQL View
+``` sql
+create view uk_youtubers_2024 as
+SELECT 
+	cast(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) - 1) as varchar(100)) AS YtName
+	,[total_subscribers]
+    ,[total_views]
+     ,[total_videos]
+   FROM [Yt_database].[dbo].[Top_UK_YTubers];
+
+```
+
+## Data Quality Test
+Here are the data quality tests conducted:
+
+
 
 
 
