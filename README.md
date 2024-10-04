@@ -1,7 +1,7 @@
 # Data Portfolio: Excel to Power BI
 
 ## Table of Contents
-- [Objective](#objective)
+- [Objectives](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
@@ -16,6 +16,7 @@
 - [Visualization](#visualization)
 - [Analysis](#analysis)
 - [Validation](#validation)  
+
 
 ## Objectives
 The Head of Marketing wants to find out who the top YouTubers are in 2024 to determine which YouTubers are most suitable for marketing campaigns for the remainder of the year.
@@ -369,16 +370,16 @@ We discovered that
 Based on the potential revenue and net profit estimates, the top three channels to prioritize for your YouTube campaign are:
 
 1. Dan Rhodes (Most Subscribers & Most Views Categories)
-Net Profit: $1,065,000 (Subscribers) & $985,000 (Views)
-Reason: Dan Rhodes offers an outstanding reach with an average of 11.15 million views per video. His channel shows high engagement, making it a profitable choice with a strong net profit margin from both the subscribers and views perspectives. The low campaign cost relative to revenue potential further enhances the ROI, positioning him as the top pick.
+- Net Profit: $1,065,000 (Subscribers) & $985,000 (Views)
+- Reason: Dan Rhodes offers an outstanding reach with an average of 11.15 million views per video. His channel shows high engagement, making it a profitable choice with a strong net profit margin from both the subscribers and views perspectives. The low campaign cost relative to revenue potential further enhances the ROI, positioning him as the top pick.
 
 2. Mister Max (Most Views Category)
-Net Profit: $1,276,000
-Reason: Mister Max delivers the highest average views per video (14.06 million) and correspondingly the highest potential net profit among all channels. If maximizing exposure and revenue is your key objective, this channel provides an excellent opportunity. The campaign investment yields impressive returns with a 2% conversion rate assumption.
+- Net Profit: $1,276,000
+- Reason: Mister Max delivers the highest average views per video (14.06 million) and correspondingly the highest potential net profit among all channels. If maximizing exposure and revenue is your key objective, this channel provides an excellent opportunity. The campaign investment yields impressive returns with a 2% conversion rate assumption.
 
 3. NoCopyrightSounds (Most Subscribers Category)
-Net Profit: $642,000
-Reason: NoCopyrightSounds is ideal for tapping into a highly loyal and engaged subscriber base, with significant viewership (6.92 million views per video) and a net profit of $642,000. This channel offers a cost-effective option for strong audience engagement, ensuring consistent brand exposure.
+- Net Profit: $642,000
+- Reason: NoCopyrightSounds is ideal for tapping into a highly loyal and engaged subscriber base, with significant viewership (6.92 million views per video) and a net profit of $642,000. This channel offers a cost-effective option for strong audience engagement, ensuring consistent brand exposure.
 
 ### Conclusion:
 Dan Rhodes, Mister Max, and NoCopyrightSounds should be your top choices. These channels not only promise substantial reach but also ensure profitable campaign outcomes, making them ideal for driving conversions and revenue growth for your product.
